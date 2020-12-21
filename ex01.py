@@ -16,11 +16,11 @@ while True:
     for c in range(0, 11):
         if escolha == 1:
             s = n + c
-            print(f'{n} + {c} = {s}')
+            print(f'{n} + {c} = {s}', 'Par' if s % 2 == 0 else 'Impar')
         elif escolha == 2:
             s = n - c
-            print(f'{n} - {c} = {s}')
+            print(f'{n} - {c} = {s}', 'Par' if s % 2 == 0 else 'Impar')
         elif escolha == 3:
             s = n * c
-            print(f'{n} x {c} = {s}')
+            print(f'{n} x {c} = {s}', 'Par' if s % 2 == 0 else 'Impar')
     print('-' * 40)
