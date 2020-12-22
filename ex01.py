@@ -16,7 +16,18 @@ while True:
     for c in range(0, 11):
         if escolha == 1:
             s = n + c
-            print(f'{n} + {c} = {s}', 'Par' if s % 2 == 0 else 'Impar')
+            # Quebrando o número
+            u = s // 1 % 10
+            d = s // 10 % 10
+            a = s // 100 % 10
+            m = s // 100 % 10
+            nf = u + d + a + m
+
+            print(f'{n} + {c} = {s}', 'Par' if s % 2 == 0 else 'Impar', end=' ')
+            if nf == 9:
+                print('noves fora 0')
+            else:
+                print(f'Noves fora {nf}')
         elif escolha == 2:
             s = n - c
             print(f'{n} - {c} = {s}', 'Par' if s % 2 == 0 else 'Impar')
