@@ -1,0 +1,29 @@
+git init = inicia um arquivo git
+
+git status = mostra o status do arquivo git
+
+git add => git add * = Adiciona os arquivos git localmente
+
+git commit = Gera as versões
+
+git remote = Mostra os repositórios git no github (OBS: Para utilizar este é necessário
+ter um repositório no github)
+
+git remote add origin(nome do repositório) caminho(Colocar o caminho para o repositório)
+
+git push = Envia os arquivos para o repositório no github
+
+git push --set-upstream origin master (Comando dado pelo próprio git para sincronizar com o github)
+
+git push --set-upstream origin master -f (Possa ser que haja um erro na hora de enviar os arquivos para o github, esse comando força o git a enviar os arquivos)
+
+git pull = pega informações da minha origin{Servidor} (Geralmente utilizado para quando estiver trabalhando em equipe)
+
+git clone caminho {Colocar o caminho do repositório} = pega o que já existes, clona! (OBS: Cuidado para não clonar um repositório dentro de um git local)
+
+git log -> Mostra um histórico completo
+
+git rm <nome do diretório> -> Remove completamente um diretório
+
+
+links para referência -> https://gist.github.com/leocomelli/2545add34e4fec21ec16
